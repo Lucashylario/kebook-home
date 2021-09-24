@@ -1,0 +1,31 @@
+/*###### Barra de navegação ######*/
+.navbar {
+    background-color: #000;
+    position: absolute;
+}
+
+.navbar-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    margin-top: 2.1875rem;
+    margin-left: 4.6875rem;
+}
+
+
+/*###### Logo ######*/
+.navbar .logo {
+    display: flex;
+    justify-content: center;
+    margin-right: 6.5625rem;
+}
+
+.navbar .logo svg {
+    width: 7rem;
+
+}
+
+.logo-category {
+    display: flex;
+    justify-content: space-around;
+}

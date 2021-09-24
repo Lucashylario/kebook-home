@@ -1,0 +1,92 @@
+/*###### Botão ######*/
+.dropdown-btn {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: left;
+    display: flex;
+
+    background-color: unset;
+    color: var(--color-primary);;
+    
+    padding: 0.375rem 0.75rem 0.375rem 0;
+    margin-top: 0.625rem;
+    
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-btn svg {
+    width: 0.9375rem;
+    padding: 0 0 0 0.625rem;
+}
+
+.hamburger-icon {
+    color: var(--color-primary) !important;
+}
+
+.dropdown-btn:hover, .dropbtn:focus {
+    color: rgb(197, 197, 197);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    align-self: center;
+}
+
+/*###### Links ######*/
+.dropdown-category {
+
+    display: none;
+    background-color: #fff;
+
+    padding: 2rem 2.5rem;
+    margin-top: 1.5rem;
+    overflow: auto;
+    position: absolute;
+    
+    border-radius: 0 3rem 3rem 3rem;
+    z-index: 1;
+}
+
+.dropdown-category h3 {
+    color: var(--font-color-text);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-bottom: 1.375rem;
+}
+
+.dropdown-category a {
+    width: max-content;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--font-color-text);
+    
+    display: block;
+    text-decoration: none;
+
+    margin-right: 1.25rem;
+    margin-bottom: 1rem;
+    
+    background-image: linear-gradient(90deg, var(--color-secondary), var(--color-secondary));
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    background-position: left bottom;
+    transition: background-size 1s ease;
+    cursor:pointer;
+}
+
+.dropdown-category a:hover {
+    width: max-content;
+    color: var(--color-secondary);
+    transition: 1s;
+    background-size: 100% 1px;
+}
+
+.dropdown-links {
+    width: max-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.show {display: block;}

@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+@import './css/_global.css';
+@import './css/_variable.css';
+@import './css/_navBar.css';
+@import './css/_dropdowMenu.css';
