@@ -1,16 +1,41 @@
 .btn {
     background-color: unset;
     border: none;
-    cursor: pointer;
 }
 
-.btn- {
+.btn-1 {
     color: white;
-    background: blue;
+    background: unset;
+    border: 1px solid #ffff;
     transition: background 1s;
 }
 
-button:hover,
-button:focus {
+.btn-1:hover,
+.btn-1:focus {
     background: red;
+}
+
+/* Botão subscribe navbar */
+
+.btn-1 a svg {
+    width: 1rem;
+}
+
+.btn-1 a {
+    font-size: 1rem;
+}
+
+.btn-subscribe {
+    width: 200px;
+    height: 52px;
+    border-radius: 50px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 38px;
+    left: 1560px;
+}
+
+.btn-subscribe:hover {
+    border: 1px solid rgba(255, 0, 0, 0.068);
 }
