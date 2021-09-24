@@ -4,6 +4,11 @@
     font-family: 'Nunito', sans-serif !important;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 15px;

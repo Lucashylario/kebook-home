@@ -29,9 +29,11 @@
 }
 
 .dropdown {
+    width: 7.1575rem;
     position: relative;
     display: inline-block;
     align-self: center;
+    margin-left: -5px;
 }
 
 /*###### Links ######*/

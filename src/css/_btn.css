@@ -1,0 +1,16 @@
+.btn {
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+}
+
+.btn- {
+    color: white;
+    background: blue;
+    transition: background 1s;
+}
+
+button:hover,
+button:focus {
+    background: red;
+}
