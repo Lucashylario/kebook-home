@@ -1,0 +1,22 @@
+.emoji-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: var(--font-color-two);
+}
+
+.emoji-content div {
+    width: 16.675rem;
+    margin-top: 4.370rem;
+    margin-right: 2rem;
+}
+
+.emoji-content h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    margin: 0.5rem 0 .5rem 0;
+}
+
+.emoji-content p {
+    font-size: 1rem;
+}
