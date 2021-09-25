@@ -6,7 +6,7 @@
 .btn-1 {
     color: white;
     background: unset;
-    border: 1px solid #ffff;
+    border: 2px solid #ffff;
     transition: background 1s;
 }
 
@@ -23,21 +23,6 @@
 
 .btn-1 a {
     font-size: 1rem;
-}
-
-.btn-subscribe {
-    width: 200px;
-    height: 52px;
-    border-radius: 50px;
-    cursor: pointer;
-
-    position: absolute;
-    top: 38px;
-    left: 1560px;
-}
-
-.btn-subscribe:hover {
-    border: 1px solid rgba(255, 0, 0, 0.068);
 }
 
 /* Botão Banner */
