@@ -6,3 +6,44 @@
 @import './css/_dropdowMenu.css';
 @import './css/_btn.css';
 
+.header {
+    width: 100%;
+    height: 510px;
+    background-image: url(./assets/back-top-home.png) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.header-info {
+    padding: 0 15px;
+}
+
+.header-info h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 90px;
+    color: var(--color-primary);
+
+    margin-top: 9rem;
+}
+
+.header-info p {
+    width: max-content;
+    
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--color-primary);
+
+}
+
+.ilustration-banner img {
+    width: 455px;
+    margin-top: 10.5rem;
+    margin-bottom: -7rem;
+}

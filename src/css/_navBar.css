@@ -1,6 +1,6 @@
 /*###### Barra de navegação ######*/
 .navbar {
-    background-color: #000;
+    background-color: unset;
     position: absolute;
 }
 
