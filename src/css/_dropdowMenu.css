@@ -108,3 +108,44 @@
 }
 
 .show {display: block;}
+
+/*Responsio media screen*/
+@media screen and (max-width: 1390px) {
+    .dropdown-btn {
+        display: none;
+    }
+
+    .dropdown {
+        width: 45px;
+    }
+
+    .dropdown-btn-mobile {
+        display: block;
+    }
+}
+
+/* MOBILE cell phone */
+@media screen and (max-width: 1100px) {
+
+    .dropdown {
+        width: 100px;
+    }
+
+    .dropdown-btn-mobile {
+        margin: 0 30px;
+    }
+
+    .dropdown-links {
+        display: none;
+    }
+
+    /*Menu links*/
+    .dropdown-menu {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+}

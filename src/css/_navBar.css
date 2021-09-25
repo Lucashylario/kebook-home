@@ -132,18 +132,6 @@
     .nav-search {
         margin-left: -280px;
     }
-
-    .dropdown-btn {
-        display: none;
-    }
-
-    .dropdown {
-        width: 45px;
-    }
-
-    .dropdown-btn-mobile {
-        display: block;
-    }
 }
 
 @media screen and (max-width: 1220px) {
@@ -171,23 +159,6 @@
     .logo-mobile {
         display: block;
         margin: 0 20px 0 auto !important;
-    }
-
-    .dropdown {
-        width: 100px;
-    }
-
-    .dropdown-btn-mobile {
-        margin: 0 30px;
-    }
-
-    .dropdown-links {
-        display: none;
-    }
-
-    /*Menu links*/
-    .dropdown-menu {
-        display: block;
     }
 
     .nav-links {
