@@ -1,58 +1,198 @@
 .header {
-    width: 100%;
-    height: 510px;
+    height: 610px;
     background-image: url(../assets/back-top-home.png) !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    padding: 120px 0 0 0;
 }
 
 .header-content {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-}
-
-.header-info {
-    padding: 0 5px;
-    position: absolute;
+    max-width: 720px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Conteúdo da banner */
 .header-info h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem !important;
     font-weight: 400;
-    line-height: 90px;
     color: var(--color-primary);
-
-    margin-top: 8rem;
 }
 
 .header-info p {
-    width: max-content;
-    
-    font-size: 1.25rem;
-    font-weight: 400;
+    font-size: 1.1rem;
     color: var(--color-primary);
 
-    margin-top: 0.5rem;
-    margin-bottom: 0.625rem;
+    margin: 0.5rem 0 0.625rem 0;
+    text-shadow: 2px 1px 2px black;
+}
+
+
+.btn-banner {
+    width: -moz-available;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    
+    background: red;
+    background-image: linear-gradient(90deg, red,rgb(255, 187, 0));
+    background-repeat: no-repeat;
+    background-size: 0% 100px;
+    background-position: right bottom;
+    transition: background-size 1s ease;
+
+    padding: 1rem 2.7rem;
+    margin-bottom: 1rem;
+
+    border: none;
+    border-radius: 50px;
+
+    cursor: pointer;
+}
+
+.btn-banner:hover {
+    background-size: 100% 100px;
+}
+
+.btn-banner2 {
+    width: -moz-available; 
+    font-size: .95rem;
+    font-weight: 700 !important;
+    background-color: unset;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    transition: 0.51s;
+}
+
+.btn-banner2:hover {
+    background-color: red;
+    border: 2px solid red;
 }
 
 .profile-access-banner {
     font-size: 1rem !important;
-    margin-top: 1.1rem !important;
+    margin-top: 1rem !important;
 }
 
 .profile-access-banner a {
     font-weight: 700;
-}
-
-.profile-access-banner a:hover {
     text-decoration: revert;
+    margin-bottom: 100px;
 }
 
-/* Ilustração banner */
 .ilustration-banner img {
-    width: 455px;
-    margin: 10rem 0 -7rem 42.7rem;
+    width: 20rem !important;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 499px) {
+    .header-info h1 {
+        font-size: 4rem;
+        line-height: 4.5rem !important;
+    }
+
+    .header-info p {
+        text-shadow: unset;
+    }
+    
+    .btn-banner2 {
+        font-size: 1.1rem;
+        padding: 1rem 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header {
+        width: 100%;
+        height: 360px;
+    }
+
+    .header-content {
+        display: flex;
+    }
+
+    .header-info {
+        margin: 0;
+        margin-left: -81px;
+    }
+
+    .header-info p {
+        margin-right: -5px;
+    }
+
+    .container-button {
+        display: flex;
+    }
+
+    .btn-banner {
+        width: 13rem;
+        display: flex;
+        margin-right: 1.5rem;
+    }
+
+    .btn-banner2 {
+        width: 16rem;
+        height: 5.4rem;
+        font-size: 1.2rem;
+    }
+
+    .ilustration-banner img {
+        width: 16rem;
+        display: block;
+        margin: 22px 0 0px 30px;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    .header {
+        height: 380px;
+        padding-top: 130px;
+    }
+
+    .header-content {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-info {
+        margin: 0 20px;
+        margin: 0;
+    }
+
+    .header-info h1 {
+        font-size: 5rem !important;
+        line-height: 5.3rem !important;
+    }
+
+    .header-info p {
+        font-size: 1.22rem;
+    }
+
+    .btn-banner {
+        width: 16rem;
+        display: flex;
+        margin-right: 1.5rem;
+    }
+
+    .btn-banner2 {
+        width: 23rem;
+        height: 3.9rem;
+        font-size: 1.2rem;
+    }
+
+    .profile-access-banner {
+        font-size: .95rem !important;
+        margin: 0.6rem 0 0 0 !important;
+    }
+
+    .ilustration-banner img {
+        width: 29rem !important;
+        display: block;
+        margin: 22px 0 0px 30px;
+    }
 }
