@@ -1,12 +1,12 @@
 :root {
     --color-primary: #f2f2f2;
     --color-secondary: #ff8b00;
+    --color-gradient: #ff9819;
 
     --font-color-text: #5a6075;
     --font-color-two: #3f4351;
 
-    --background-navbar-mobile: ;
     --background-dropdown-mobile: #ff8000;
 
-    --button-dropdown: #ff4600;
+    --button-dropdown: #ff7b00;
 }
