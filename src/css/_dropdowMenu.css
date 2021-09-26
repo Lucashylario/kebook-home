@@ -226,4 +226,34 @@
         background-image:unset;
         background-size: unset;
     }
+
+     /*Menu categorias mobile*/
+     .dropbtn1 {
+        font-size: 1.3rem !important;
+        font-family: 'Nunito', sans-serif !important;
+        font-weight: 700;
+        color: white;
+        background-color: unset;
+        display: block;
+        margin: 0 auto 1rem auto;
+        border: unset;
+        cursor: pointer;
+    }
+
+    .category-mobile-content {
+        display: none;
+        background-color: var(--color-gradient);
+        min-width: 16rem;
+        overflow: auto;
+        z-index: 1;
+    }
+      
+    .category-mobile-content a {
+        color: var(--color-primary);
+        padding: 0.75rem 1rem;
+        text-decoration: none;
+        display: block;
+    }
+      
+      .show {display: block;}
 }
