@@ -32,7 +32,7 @@
 
 
 .btn-banner {
-    width: -moz-available;
+    width: 100%;
     font-size: 1.2rem;
     font-weight: 700;
     color: white;
@@ -58,7 +58,7 @@
 }
 
 .btn-banner2 {
-    width: -moz-available; 
+    width: 100%; 
     font-size: .95rem;
     font-weight: 700 !important;
     background-color: unset;
