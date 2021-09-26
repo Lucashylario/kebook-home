@@ -249,8 +249,10 @@
     }
       
     .category-mobile-content a {
+        font-weight: 400;
         color: var(--color-primary);
         padding: 0.75rem 1rem;
+        margin: 0.01rem auto;
         text-decoration: none;
         display: block;
     }
