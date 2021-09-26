@@ -139,9 +139,9 @@
     }
 
     .close-btn svg {
-        width: 20px;
+        width: 1.25rem;
         position: absolute !important;
-        top: 50px;
+        top: 3.125rem;
         color: var(--color-primary) !important;
     }
 
@@ -167,7 +167,7 @@
         position: absolute;
         color: var(--color-primary);
         position: absolute;
-        padding: 30px 0 0 0;
+        padding: 1.875rem 0 0 0;
         margin-top: -30px;
         top: 0;
         left: 0;
