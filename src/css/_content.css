@@ -1,22 +1,84 @@
+.conatiner-content {
+    padding: 0 .5rem;
+}
+
 .emoji-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin: 3.2rem 0;
     color: var(--font-color-two);
 }
 
 .emoji-content div {
-    width: 16.675rem;
-    margin-top: 4.370rem;
-    margin-right: 2rem;
+    margin-bottom: .8rem;
 }
 
-.emoji-content h2 {
-    font-size: 1.7rem;
-    font-weight: 700;
-    line-height: 1.875rem;
-    margin: 0.5rem 0 .5rem 0;
+.emoji-content h3  {
+    font-size: 1.65rem;
+    margin-bottom: 0.1rem;
 }
 
 .emoji-content p {
-    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 499px) {
+    .emoji-content {
+        margin: 4.2rem 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .emoji-content {
+        margin: 5.5rem 0;
+    }
+
+    .emoji-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .emoji-content {
+        margin: 4.5rem 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .emoji-content {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 1rem;
+    }
+
+    .emoji-content div {
+        padding: 0 1rem;
+    }
+
+    .emoji-content h3, p {
+        text-align: start;
+    }
+    
+    .emoji-content h3 {
+        font-size: 1.8rem;
+        line-height: 1.9rem;
+        margin-top: 0.3rem;
+    }
+
+    .emoji-content p {
+        font-size: 1.11rem;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .emoji-content {
+        text-align: unset !important;
+    }
+    .emoji-content h3{
+        font-size: 1.59rem;
+    }
+
+    .emoji-content p {
+        font-size: 1rem;
+    }
 }
